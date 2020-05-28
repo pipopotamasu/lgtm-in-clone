@@ -8,3 +8,9 @@ clone-backend:
 
 clone-frontend:
 	@git clone https://github.com/pipopotamasu/lgtm-in-clone-front.git ./repo/lgtm-in-clone-frontend
+
+build:
+	@docker-compose build
+
+upd:
+	@docker-compose up -d
